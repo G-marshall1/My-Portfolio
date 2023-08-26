@@ -1,3 +1,7 @@
+* {
+font-family: Arial, sans-serif;
+color: aliceblue;
+}
 body {
     margin: 0;
     background-image: url("../images/back-ground.png");
@@ -9,10 +13,44 @@ body {
 nav img {
     border-radius: 50%;
     height: 50px;
-    margin: auto;
+    margin: 10px;
 }
 
+header {
+   
+}
+
+Nav {
+    display: flex;
+    flex-wrap: wrap;
+justify-content: space-between;
+padding-top: 15px;
+}
 
 nav ul li {
-
+display: inline;
+margin-right: 25px;
+font-size: larger;
 }
+
+h1 {
+    text-align: center;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+button {
+font-size: larger;
+background-color: transparent;
+border-radius: 50px;
+outline: auto;
+padding: 15px;
+margin-bottom: 5px;
+}
+
+
