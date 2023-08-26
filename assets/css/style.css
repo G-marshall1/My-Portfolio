@@ -3,14 +3,16 @@
 }
 
 :root {
-    --primary: 
-    --secondary:
-    --tertiary:
-    --dark:
---light:
+    --primary: #2272FF;
+    --secondary: black;
+    --tertiary: white;
+    --dark: blue;
+--light: white
 }
 
 body {
+    color: var(--tertiary);
+    background-color: var(--secondary);
     margin: 0;
     padding: 0;
     line-height: 1.2;
@@ -22,11 +24,16 @@ header {
     flex-direction: row;
     justify-content: space-between;
     flex-wrap: wrap;
+    padding: 10px 6% 10px 0;
+    background-color: var(--secondary);
 }
 
 header h1 {
     font-size: 4vw;
     line-height: 1;
+    padding: 10px 2% 10px 6%;
+    margin: 0;
+    color: var(--primary);
 }
 
 nav {
