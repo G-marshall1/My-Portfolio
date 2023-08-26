@@ -41,3 +41,21 @@ nav a {
     margin-right: 10px;
     font-size: 1.5rem;
 }
+
+main {
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+.banner {
+    background-image: url(../images/Hero\ coding.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: soft-light;
+    min-height: 30hv;
+    padding: 1% 5%;
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
