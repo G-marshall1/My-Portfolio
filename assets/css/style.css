@@ -1,9 +1,18 @@
 * {
+    box-sizing: content-box;
 font-family: Arial, sans-serif;
 color: aliceblue;
 }
+
+h1,
+h2,
+h3 {
+    margin: 0;
+}
+
 body {
     margin: 0;
+    padding: 0;
     background-image: url("../images/back-ground.png");
     background-repeat: no-repeat;
     background-size: cover;
@@ -23,18 +32,29 @@ header {
 Nav {
     display: flex;
     flex-wrap: wrap;
+    flex-direction: row;
 justify-content: space-between;
 padding-top: 15px;
 }
 
-nav ul li {
+nav a {
 display: inline;
 margin-right: 25px;
 font-size: larger;
+text-decoration: overline;
+}
+
+nav a:hover {
+    background-size: 100% 100%;
+    color: blue
 }
 
 h1 {
     text-align: center;
+}
+
+.work {
+    border-right: 5px solid white;
 }
 
 footer {
